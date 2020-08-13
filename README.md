@@ -80,6 +80,6 @@ The function will throw an error:
 - Run tests with `yarn test`
 - Use prettier (via editor plugin)
 - To publish:
-  - Update `package.json` version to e.g. `1.2.3`
-  - Add a commit on master with the message: `Release 1.2.3`
+  - On master, update `package.json` version to e.g. `1.2.3` and commit with message `Release 1.2.3`
+    - NB. changing package.json version may be done on a separate commit first, if necessary.
   - GitHub action should now publish it automatically.

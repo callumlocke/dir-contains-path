@@ -1,0 +1,26 @@
+{
+	"name": "dir-contains-path",
+	"description": "Check if one path is an ancestor of another",
+	"version": "0.0.0",
+	"author": "Callum Locke",
+	"devDependencies": {
+		"@types/node": "^14.0.27",
+		"jest": "^26.4.0"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"directory",
+		"path",
+		"subdir",
+		"subdirectory"
+	],
+	"license": "MIT",
+	"repo": "callumlocke/dir-contains-path",
+	"scripts": {
+		"test": "jest"
+	},
+	"types": "dist/index.d.ts"
+}

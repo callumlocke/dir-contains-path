@@ -73,3 +73,13 @@ The function will throw an error:
 > **Why make `dir-contains-path` if several existing packages do the same thing?**
 >
 > Mainly because I can never remember which way round the arguments go. For me, the name `dirContainsPath(a, b)` makes it less ambiguous.
+
+## Development
+
+- Use yarn
+- Run tests with `yarn test`
+- Use prettier (via editor plugin)
+- To publish:
+  - Update `package.json` version to e.g. `1.2.3`
+  - Add a commit on master with the message: `Release 1.2.3`
+  - GitHub action should now publish it automatically.

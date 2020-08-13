@@ -2,6 +2,8 @@
 
 Check if one path is an ancestor of another. Includes TypeScript declaration.
 
+[![npm version](https://img.shields.io/npm/v/dir-contains-path.svg)](https://www.npmjs.com/package/dir-contains-path)
+
 ## Installation
 
 ```sh

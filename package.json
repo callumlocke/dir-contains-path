@@ -1,7 +1,7 @@
 {
 	"name": "dir-contains-path",
 	"description": "Check if one path is an ancestor of another",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"author": "Callum Locke",
 	"devDependencies": {
 		"@types/node": "^14.0.27",
